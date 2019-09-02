@@ -1,0 +1,115 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.box{
+  box-shadow: 2px 7px 38px 0px rgba(0,0,0,0.51);
+}
+div.box {
+  border-radius: 15px;
+}
+*/
+#perfil{
+    width: 100%;
+    margin: 0;
+    background: rgba(0,128,128,0.9);
+}
+
+#knows{
+  width: 90%;
+  margin: auto;
+}
+
+#skills{
+  padding-bottom: 10%;
+  margin: auto;
+}
+
+#servicos i {
+  font-size: 1.5rem;
+  margin: 10%;
+}
+
+.linha{
+    background: -webkit-linear-gradient(left , #0072ff, #00c6ff);
+    height: 20px;
+}
+
+.formacao{
+    margin: 2%;
+    width: 100%;
+    background: rgba(30, 143, 255, 0.726);
+    display: block;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+#servicos{
+    background:  rgba(36, 161, 120, 0.9);
+    margin: 10% 1%;
+   border-radius: 15px;
+  text-align:center;
+  box-shadow: 2px 7px 38px 0px rgba(0,0,0,0.51);
+  padding: 2%
+}
+
+a .fa-github .fa-linkedin{
+    font-size: 26px;
+    color: white;
+}
+.fa-laptop-code{
+    font-size: 60px;
+    margin: 18%;
+    width: 100%
+}
+
+div#iconCode{
+  width: 100%;
+  margin:2% 50% 2% 44%
+}
+
+canvas{
+    width: 90%;
+    height: 300px;
+}
+  
+  
+/*STYLE SLIDEOUT*/
+
+.slideout-menu {
+position: fixed;
+top: 0;
+bottom: 0;
+width: 256px;
+min-height: 100vh;
+overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
+z-index: 0;
+display: none;
+}
+
+.slideout-menu-left {
+left: 0;
+}
+
+.slideout-menu-right {
+right: 0;
+}
+
+.slideout-panel {
+position: relative;
+z-index: 1;
+will-change: transform;
+background-color: #FFF; /* A background-color is required */
+min-height: 100vh;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+display: block;
+}
