@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
   $('a[href^="#"]').on('click', function(event) {
   
@@ -15,22 +17,30 @@ $(document).ready(function(){
   // Loadings
   var loadJS = new ldBar("#loadJS", {
     "type": "fill",
+    "value":"90",
     "img": "../meu-site/images/js.svg",
-    "value":"70"
+    "fill-dir": "btt"
    });
 
    var loadCSS = new ldBar("#loadCSS", {
     "type": "fill",
+    "value":"90",
     "img": "../meu-site/images/css.svg",
-    "value":"90"
+    "fill-dir": "btt"
    });
 
    var loadHTML = new ldBar("#loadHTML", {
     "type": "fill",
+    "value":"90",
     "img": "../meu-site/images/html.svg",
-    "value":"90"
+    "fill-dir": "btt"
    });
 
+   setInterval(reloading(), 3000);
+    setInterval(loadJS.set(70), 3000);
+    setInterval(loadCSS.set(90), 3000);
+    setInterval(loadHTML.set(90), 3000);
+       
 
 
   //  // Menu SlideOut

@@ -17,6 +17,16 @@ div.box {
     background: rgba(0,128,128,0.9);
 }
 
+#perfil img{
+  margin: 3%;
+  width: 20%;
+  border-radius: 50%;
+  box-shadow: 0 9px 30px -5px;
+}
+.ldBar-label{
+  text-align: center;
+}
+
 #knows{
   width: 90%;
   margin: auto;
