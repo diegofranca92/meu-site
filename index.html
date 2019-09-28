@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css">
+    <link rel="stylesheet" href="css/loading-bar.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -47,7 +48,7 @@
     <!-- Perfil e Redes -->
     <div id="perfil" class="row">
       <div class="card formacao col" >
-        <img class="card-img-top" src="https://github.com/diegofranca92/meusite-portifolio/blob/master/images/diego-min.jpg">
+        <img class="card-img-top" src="">
         <div class="card-body">
           <h3>Formação</h3>
           <h4>Centro Universitário Jorge Amado</h4>
@@ -70,6 +71,11 @@
     <div id="skills" class="row">
         <div id="iconCode" class="row justify-content-center"><i class="fas fa-laptop-code"></i></div>
       <div id="knows" class="row">
+        <div class="row center" style="width: 50%; height: 50%;">
+          <div id="loadHTML" class="ldBar col" style="width: 40%; height: 40%;"></div>
+          <div id="loadCSS" class="ldBar col" style="width: 40%; height: 40%;"></div>
+          <div id="loadJS" class="ldBar col " style="width: 40%; height: 40%;"></div>
+        </div>
         <!-- Conhecimentos -->
         <div class="col-4">
           <div class="list-group" id="list-tab" role="tablist">
@@ -221,5 +227,6 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+<script src="js/loading-bar.js"></script>
 <script src="js/index.js"></script>
 </html>
