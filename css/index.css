@@ -17,14 +17,36 @@ div.box {
     background: rgba(0,128,128,0.9);
 }
 
+.bg-dark{
+  background: #1d3246 !important;
+}
+
+
+
 #perfil img{
   margin: 3%;
-  width: 20%;
+  width: 30%;
   border-radius: 50%;
   box-shadow: 0 9px 30px -5px;
 }
+#perfil a{
+  cursor: pointer;
+  color: rgb(207, 203, 203);
+  font-size: 26px;
+  margin: 9px;
+  margin-top: 14px;
+  display: flex;
+  text-decoration: none;
+}
 .ldBar-label{
   text-align: center;
+}
+
+li.list-group-item{
+  width: 50%;
+}
+a.list-group-item{
+
 }
 
 #knows{
@@ -52,7 +74,8 @@ div.box {
     width: 100%;
     background: rgba(30, 143, 255, 0.726);
     display: block;
-    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    box-shadow: 4px 5px 26px 2px;
 }
 #servicos{
     background:  rgba(36, 161, 120, 0.9);
