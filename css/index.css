@@ -42,22 +42,38 @@ div.box {
   text-align: center;
 }
 
-li.list-group-item{
-  width: 50%;
+.list-group-item-action{
+  background: #1d3246;
+  color: #FFF;
+  
 }
-a.list-group-item{
 
+.list-group-item-action:first-child{
+  border-top-left-radius:3.25rem;
+}
+
+.tab-pane .list-group-item:first-child{
+  border-top-right-radius:3.25rem;
+}
+
+.tab-pane .list-group-item{
+  background: #277fd1;
+  color: #FFF;
+}
+
+.tab-content{
+  margin-left: -1rem;
 }
 
 #knows{
-  width: 90%;
-  margin: auto;
+  width: 46%;
+  margin-left: 1rem;
 }
+/* li.list-group-item{
+}
+a.list-group-item{
 
-#skills{
-  padding-bottom: 10%;
-  margin: auto;
-}
+} */
 
 #servicos i {
   font-size: 1.5rem;
