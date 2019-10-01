@@ -11,10 +11,20 @@ div.box {
   border-radius: 15px;
 }
 */
+
+.carousel-item img{
+  height: 400px;
+  width: 100%;
+}
+#carouselPortifolio{
+  width: 80%;
+  margin: 2rem auto;
+}
 #perfil{
-    width: 100%;
-    margin: 0;
-    background: rgba(0,128,128,0.9);
+  width: 100%;
+  margin: auto;
+  margin-bottom: 2rem;
+  background: rgba(0,128,128,0.9);
 }
 
 .bg-dark{
@@ -24,8 +34,7 @@ div.box {
 
 
 #perfil img{
-  margin: 3%;
-  width: 30%;
+  margin: 0.7rem;
   border-radius: 50%;
   box-shadow: 0 9px 30px -5px;
 }
@@ -106,22 +115,6 @@ a .fa-github .fa-linkedin{
     font-size: 26px;
     color: white;
 }
-.fa-laptop-code{
-    font-size: 60px;
-    margin: 18%;
-    width: 100%
-}
-
-div#iconCode{
-  width: 100%;
-  margin:2% 50% 2% 44%
-}
-
-canvas{
-    width: 90%;
-    height: 300px;
-}
-  
   
 /*STYLE SLIDEOUT*/
 
