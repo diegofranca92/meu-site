@@ -3,6 +3,9 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth; 
+  /* 
+  https://willianjusten.com.br/menu-sticky-e-smooth-scroll-com-css-puro/*/
 }
 
 :root {
@@ -29,7 +32,15 @@ html {
   transform: translateX(-3px);
 }
 
-.fab:hover {
+.sanbox-icon{
+  width: 1.8rem;
+}
+
+.expo-icon{
+  width: 2.2rem;
+}
+
+.fab:hover, .sanbox-icon:hover, .expo-icon:hover {
   transform: translateX(-3px);
 }
 
