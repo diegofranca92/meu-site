@@ -1,4 +1,8 @@
- // Loadings
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+  
+  // Loadings
  var loadJS = new ldBar("#loadJS", {
   "type": "fill",
   "value":"90",
